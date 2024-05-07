@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,124 +11,165 @@
     <link rel="stylesheet" href="./assets/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-              <a href="./index.html" class="brand-logo">Noah Manno</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a class="contact-button"href="#contact-me">Contact Me</a></li>
-              </ul>
+                <a href="./index.html" class="brand-logo">Noah Manno</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down section table-of-contents">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
             </div>
-          </nav>
+        </nav>
     </div>
-      <ul class="sidenav" id="mobile-demo">
+    <ul class="sidenav" id="mobile-demo">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact-me">Contact Me</a></li>
-      </ul>
+    </ul>
 
-      <div class="row profile">
+    <div class="row profile section scrollspy" id="home">
         <div class="headshot col s8 offset-s2 m5 offset-m0">
             <img class="headshot-image" src="./assets/images/NoahMannoHeadshot.png" alt="Noah Manno Headshot">
         </div>
         <div class="bio col s12 m7">
             <h1 id="headline"></h1>
-            <h2 id="greeting">Hello, my name is Noah Manno. I am a full stack web developer based in New Jersey providing high quality code for your next project.</h2>
+            <h2 id="greeting">Hello, my name is Noah Manno. I am a full stack web developer based in New Jersey
+                providing high quality code for your next project.</h2>
             <div class="row profile-buttons">
                 <div class="col s6 about-me-button-container">
-                    <a class="about-me-button"href="#about">About Me -></a>
+                    <a class="about-me-button" href="#about">About Me -></a>
                 </div>
                 <div class="col s6 keep-scrolling-button-container">
-                    <a class="keep-scrolling-button"href="#about">
-                        <img id="arrow"src="./assets/images/scrollArrow.png" alt="arrow pointing down">
+                    <a class="keep-scrolling-button" href="#about">
+                        <img id="arrow" src="./assets/images/scrollArrow.png" alt="arrow pointing down">
                         <span>Keep Scrolling</span>
                     </a>
                 </div>
             </div>
         </div>
-      </div>
-
-    <div class="row divide">
-        <img class="col s12 black-stripe"src="./assets/images/blackStripe.png" alt="black stripe">
-        <img class="col s12 red-banner"src="./assets/images/redBanner.png" alt="red banner">
-            <h3 class="skill-on-divider">HTML</h3>
-            <img class="hexagon"src="./assets/images/hexagon.png" alt="hexagon">
-            <h3 class="skill-on-divider">CSS</h3>
-            <img class="hexagon"src="./assets/images/hexagon.png" alt="hexagon">
-            <h3 class="skill-on-divider">JavaScript</h3>
-            <img class="hexagon"src="./assets/images/hexagon.png" alt="hexagon">
-            <h3 class="skill-on-divider">Node.js</h3>
-            <img class="hexagon"src="./assets/images/hexagon.png" alt="hexagon">
-            <h3 class="skill-on-divider">Express.js</h3>
     </div>
 
-    <div id="#about" class="row">
+    <div class="row divide">
+        <img class="col s12 black-stripe" src="./assets/images/blackStripe.png" alt="black stripe">
+        <img class="col s12 red-banner" src="./assets/images/redBanner.png" alt="red banner">
+        <h3 class="skill-on-divider">HTML</h3>
+        <img class="hexagon" src="./assets/images/hexagon.png" alt="hexagon">
+        <h3 class="skill-on-divider">CSS</h3>
+        <img class="hexagon" src="./assets/images/hexagon.png" alt="hexagon">
+        <h3 class="skill-on-divider">JavaScript</h3>
+        <img class="hexagon" src="./assets/images/hexagon.png" alt="hexagon">
+        <h3 class="skill-on-divider">Node.js</h3>
+        <img class="hexagon" src="./assets/images/hexagon.png" alt="hexagon">
+        <h3 class="skill-on-divider">Express.js</h3>
+    </div>
+
+    <div id="about" class="row section scrollspy">
         <div class="col s11 offset-s1">
             <h4>About Me</h4>
         </div>
         <div class="col s10 offset-s1">
-              <div class="card white darken-1">
+            <div class="card white darken-1">
                 <div class="card-content black-text">
-                  <p>Versatile Front-End Web Developer with comprehensive training from Rutgers University Coding Bootcamp, specializing in JavaScript, CSS, and UI/UX design and development. Adept at collaborating within Agile environments, delivering clean code, and communicating effectively. Dedicated to continuous learning and innovation in both front-end and back-end technologies.</p>
+                    <p>Versatile Front-End Web Developer with comprehensive training from Rutgers University Coding
+                        Bootcamp, specializing in JavaScript, CSS, and UI/UX design and development. Adept at
+                        collaborating within Agile environments, delivering clean code, and communicating effectively.
+                        Dedicated to continuous learning and innovation in both front-end and back-end technologies.</p>
                 </div>
-              </div>
-        </div>
-            <div class="col s10 offset-s1 m5 offset-m1">
-              <div class="card white darken-1">
-                <div class="card-content black-text">
-                  <span class="card-title">Technical Skills</span>
-                  <ul class="about-list">
-                    <li>Software Languages: JavaScript, HTML, CSS, MySQL</li>
-                    <li>Tools: VS Code, Node.js, React, Gitflow/Github, JSON</li>
-                    <li>Frameworks/Libraries: jQuery, jQuery Ui, Bootstrap.</li>
-                    <li>Additional Skills: Responsive design principles, testing frameworks, Web design and Layout, API Integration</li>
-                  </ul>
-                </div>
-              </div>
             </div>
+        </div>
+        <div class="col s10 offset-s1 m5 offset-m1">
+            <div class="card white darken-1">
+                <div class="card-content black-text">
+                    <span class="card-title">Technical Skills</span>
+                    <ul class="about-list">
+                        <li>Software Languages: JavaScript, HTML, CSS, MySQL</li>
+                        <li>Tools: VS Code, Node.js, React, Gitflow/Github, JSON</li>
+                        <li>Frameworks/Libraries: jQuery, jQuery Ui, Bootstrap.</li>
+                        <li>Additional Skills: Responsive design principles, testing frameworks, Web design and Layout,
+                            API Integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-            <div class="col s10 offset-s1 m5">
-                <div class="card white darken-1">
-                  <div class="card-content black-text">
+        <div class="col s10 offset-s1 m5">
+            <div class="card white darken-1">
+                <div class="card-content black-text">
                     <span class="card-title">Transferrable Skills</span>
                     <ul class="about-list">
-                      <li>Creative Problem Solving</li>
-                      <li>Project Management</li>
-                      <li>Client Relations</li>
-                      <li>Effective Communication</li>
-                      <li>Leadership and Mentorship Teaching/Learning/Training Methodology Adaptability and Flexibility.</li>
+                        <li>Creative Problem Solving</li>
+                        <li>Project Management</li>
+                        <li>Client Relations</li>
+                        <li>Effective Communication</li>
+                        <li>Leadership and Mentorship Teaching/Learning/Training Methodology Adaptability and
+                            Flexibility.</li>
                     </ul>
-                  </div>
                 </div>
-              </div>
+            </div>
+        </div>
     </div>
 
     <div class="parallax-container">
         <h5 class="parallax-title">Projects</h5>
         <img src="./assets/images/redBanner.png" alt="red banner">
         <div class="parallax">
-            <img src="./assets/images/parallaxPhoto.png" alt="computer and cell-phone">
+            <img src="./assets/images/parphoto.png" alt="computer and cell-phone">
+        </div>
+    </div>
+
+    <div class="row section scrollspy" id="projects">
+        <div class="col s10 offset-s1 m5 offset-m1">
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/images/tasteharmland.png">
+              <a href="https://noah-manno.github.io/taste-harmony/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Taste Harmony</span>
+              <p>Recipe Finder Website utilizing API integration and an intuitive UI. Led a development team in agile development.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s10 offset-s1 m5 offset-m0">
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/images/pokeplazaland.png">
+              <a href="https://noah-manno.github.io/pokemon-plaza/" target="_blank"class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">open_in_new</i></a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Pokemon Plaza</span>
+              <p>Slick and Creatively designed pokedex website. Sole developer utilizing local storage and API integration.</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
-      <script src="./assets/js/materialize.min.js"></script>
-      <script>
-          $(document).ready(function(){
-              $('.parallax').parallax();
-          });
 
-          $(document).ready(function(){
-          $('.sidenav').sidenav();
-          });
-      </script>
-      <script src="./assets/js/script.js"></script>
+
+    <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        });
+    </script>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
