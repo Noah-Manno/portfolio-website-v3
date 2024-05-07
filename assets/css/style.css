@@ -1,4 +1,8 @@
-
+:root {
+    --color1: white;
+    --color2: #f4f4f4;
+    --gradient: linear-gradient(var(--color1), var(--color2));
+}
 
 .navbar-fixed {
     height: 13vh;
@@ -33,19 +37,6 @@ nav ul a {
 
 .headshot-image {
     width: 100%;
-}
-
-.contact-button {
-    background-color: black;
-    color: white;
-    border-radius: 36px;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.contact-button:hover {
-    color: black;
 }
 
 #headline {
@@ -107,6 +98,7 @@ nav ul a {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 100px;
+    background: var(--gradient);
 }
 
 .red-banner,
@@ -127,6 +119,11 @@ nav ul a {
     z-index: 2;
     width: 15px;
     height: 15px;
+}
+
+#about {
+    background-color: var(--color2);
+    margin-bottom: 0px !important;
 }
 
 h4 {
