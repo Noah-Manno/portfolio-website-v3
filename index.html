@@ -109,8 +109,8 @@
             <h4>About Me</h4>
         </div>
         <div class="col s10 offset-s1">
-            <div class="card white darken-1">
-                <div class="card-content black-text">
+            <div>
+                <div>
                     <p>Versatile Front-End Web Developer with comprehensive training from Rutgers University Coding
                         Bootcamp, specializing in JavaScript, CSS, and UI/UX design and development. Adept at
                         collaborating within Agile environments, delivering clean code, and communicating effectively.
@@ -152,7 +152,7 @@
 
     <div class="parallax-container">
         <h5 class="parallax-title">Projects</h5>
-        <img src="./assets/images/redBanner.png" alt="red banner">
+        <img class="par-banner"src="./assets/images/redBanner.png" alt="red banner">
         <div class="parallax">
             <img src="./assets/images/parphoto.png" alt="computer and cell-phone">
         </div>
@@ -190,27 +190,70 @@
             </div>
         </div>
     </div>
-    
-    <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
-    <script src="./assets/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.parallax').parallax();
-        });
 
-        $(document).ready(function () {
-            $('.sidenav').sidenav();
-        });
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/images/zoominparallax.png" alt="computer and cell-phone">
+        </div>
+    </div>
 
-        $(document).ready(function () {
-            $('.scrollspy').scrollSpy();
-        });
 
-        $(document).ready(function(){
-        $('.tabs').tabs();
-        });
-    </script>
-    <script src="./assets/js/script.js"></script>
+    <div class="row section scrollspy" id="contact-me">
+        <div class="col s12 m6 contact-left-container">
+            <h4 class="contact-me-title">Contact Me</h4>
+            <div class="resume">
+                <h5 class="resume-text">Download Resume</h5>
+                <a href="./assets/resume/Noah Manno Resume.pdf" download target="_blank"class="material-icons resume-icon">download</a>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card col s12">
+                <div class="card-content contacts-container">
+                    <a href="mailto:noahmanno19@gmail.com"class="material-icons black-text contacts-icon">mail</a>
+                    <a href="mailto:noahmanno19@gmail.com" class="black-text contacts-text">noahmanno19@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="card col s12">
+                <div class="card-content contacts-container">
+                    <a href="tel:+6092358826"class="material-icons black-text contacts-icon">call</a>
+                    <a href="tel:+6092358826" class="black-text contacts-text">(609)235-8826</a>
+                </div>
+            </div>
+
+            <div class="card col s12">
+                <div class="card-content contacts-container socials-container">
+                    <a href="https://github.com/Noah-Manno" target="_blank" class="material-icons black-text contacts-icon">
+                        <img class="socials-icon"src="./assets/images/github.png" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/noah-manno/" target="_blank" class="material-icons black-text contacts-icon">
+                        <img class="socials-icon" src="./assets/images/linkedin.svg" alt="Linkedin">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <script src="./assets/js/jquery-3.7.1.slim.min.js"></script>
+        <script src="./assets/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.parallax').parallax();
+            });
+
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+            });
+
+            $(document).ready(function () {
+                $('.scrollspy').scrollSpy();
+            });
+
+            $(document).ready(function () {
+                $('.tabs').tabs();
+            });
+        </script>
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
