@@ -11,7 +11,7 @@
 
 nav {
     background-color: white;
-    height: 13vh;
+    min-height: 75px;
 }
 
 .brand-logo {
