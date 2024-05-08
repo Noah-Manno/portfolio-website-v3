@@ -4,6 +4,7 @@
     --gradient: linear-gradient(var(--color1), var(--color2));
 }
 
+/* NAVBAR */
 .navbar-fixed {
     height: 13vh;
 }
@@ -33,6 +34,7 @@ nav ul a {
     margin-top: 20px;
 }
 
+/* Profile/Home Section */
 .headshot {
     display: flex;
     justify-content: center;
@@ -42,10 +44,6 @@ nav ul a {
 .headshot-image {
     width: 100%;
     animation: fade-in-and-up 1s ease;
-}
-
-.contact-me-title {
-    text-align: center;
 }
 
 @keyframes fade-in-and-up {
@@ -58,6 +56,10 @@ nav ul a {
     }
 }
 
+.contact-me-title {
+    text-align: center;
+}
+/* Headline, with typewriter effect */
 #app {
     text-align: center;
     font-size: calc(3vw + 3vh);
@@ -70,6 +72,7 @@ nav ul a {
     font-weight: 300;
 }
 
+/* Buttons on home section */
 .about-me-button-container {
     display: flex;
     justify-content: center;
@@ -113,6 +116,7 @@ nav ul a {
     }
 }
 
+/* Divider with marquee */
 .divide {
     display: flex;
     align-items: center;
@@ -168,8 +172,7 @@ nav ul a {
     }
 }
 
-
-
+/* About Me Section */
 #about {
     background-color: var(--color2);
     margin-bottom: 0px !important;
@@ -184,6 +187,7 @@ h4 {
     list-style: circle !important;
 }
 
+/* Parallax */
 .parallax-container {
     display: flex;
     justify-content: center;
@@ -199,6 +203,12 @@ h4 {
     font-weight: 800;
 }
 
+.par-banner {
+    width: 400px;
+    height: 200px;
+}
+
+/* Contact Me Section */
 #contact-me {
     background: var(--color2);
     margin: 0;
@@ -230,11 +240,6 @@ h4 {
 .resume-icon:hover {
     box-shadow: 0 0 10px;
     cursor: pointer;
-}
-
-.par-banner {
-    width: 400px;
-    height: 200px;
 }
 
 .contacts-container {
@@ -278,7 +283,8 @@ h4 {
         transform: translateY(0%);
     }
 }
-
+/* MEDIA QUERIES */
+/* Large */
 @media only screen and (min-width:993px){
     #app {
         min-height: 150px;
@@ -309,7 +315,7 @@ h4 {
         justify-content: flex-start;
     }
 }
-
+/* Adjusting marquee spacing */
 @media only screen and (min-width:1000px){
     .divide {
         min-height: 400px;
