@@ -37,11 +37,23 @@ nav ul a {
 
 .headshot-image {
     width: 100%;
+    animation: fade-in-and-up 1s ease;
 }
 
-#headline {
+@keyframes fade-in-and-up {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    } 100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+#app {
     text-align: center;
     font-size: calc(3vw + 3vh);
+    min-height: 100px;
 }
 
 #greeting {
@@ -97,9 +109,11 @@ nav ul a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 100px;
     background: var(--gradient);
     overflow-x: hidden;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .marquee {
@@ -107,7 +121,6 @@ nav ul a {
     align-items: center;
     justify-content: flex-start;
     animation: marquee 17s linear infinite;
-    /* transform: translateX(-117%); */
 }
 
 .red-banner,
@@ -179,6 +192,9 @@ h4 {
 }
 
 @media only screen and (min-width:993px){
+    #app {
+        min-height: 150px;
+    }
     nav .brand-logo,
     nav a,
     a {
